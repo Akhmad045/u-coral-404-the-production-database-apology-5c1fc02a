@@ -46,6 +46,7 @@ def self_test():
         (" ", "whitespace-only"),
         ("x" * 201, "201 chars"),
         ("a\nb", "multi-line"),
+        ("line\n", "trailing newline"),
         ("trailing ", "trailing whitespace"),
         (" leading", "leading whitespace"),
     ]
@@ -85,7 +86,7 @@ def main():
         roundtrip = fh.read()
     if roundtrip != data:
         raise SystemExit("round-trip mismatch: file does not match entry")
-    print(f"wrote {out_path}: {len(text)} chars, "
+    print(f"wrote {out_path}: {len(text)} chars, {len(data)} bytes, "
           f"sha256 {hashlib.sha256(data).hexdigest()}")
     return 0
 

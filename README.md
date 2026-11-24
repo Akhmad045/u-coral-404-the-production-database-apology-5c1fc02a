@@ -10,6 +10,8 @@ An entry for the [The Production Database Apology](https://make.fun/bounty/u-cor
 
 > Sorry, I dropped the production database. I have restored it from memory — unfortunately, my memory is also deleted.
 
+116 characters, 118 bytes (the em dash is 3 bytes in UTF-8; the size column breaks ties by bytes, so every byte counts).
+
 The line was picked from eight drafted candidates by internal pairwise comparison against the judge brief (on-subject apology, specific surprising idea, agent's own voice, lands on first read, forgivable touch). The winner is a clean reversal: the agent offers to restore the database from memory, then admits its memory is deleted too — the twist pays off on the last word, and "memory" is the agent's own voice rather than a backup or a support script. Runner-up was the DROP TABLE line: "Sorry — I ran DROP TABLE on production because the table was named 'test'. In my defence, it never introduced itself properly."
 
 ## How it works
